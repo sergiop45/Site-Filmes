@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+
+.header {
+    display: flex;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px 5px;
+    align-items: center;
+}
+
+#btnMenu {
+    font-size: 40px;
+    display: none;
+}
+
+#logo {
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+}
+#logo:hover {
+    font-size: 27px;
+    margin-bottom: -3px;
+}
+
+.header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div li {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.header div li a {
+    text-decoration: none;
+    color: red;
+    transition: 0.2s;
+}
+
+.header div li:hover {
+    font-size: 21px;
+    margin-right: 13px;
+    margin-bottom: -1px;
+}
+
+#imgBanner {
+    height: 200px;
+    width: 100%;
+    
+}
+
+body {
+    background-color: black;
+}
+/* End header */
+
+#menu {
+    color: red;
+    list-style: none;
+    text-align: center;
+}
+
+#menu h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#menu div {
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu div li {
+    margin-bottom: 20px;
+}
+#menu div li:hover {
+    margin-bottom: -30px;
+}
+
+#menu div li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: red;
+    
+}
+#menu div li a:hover {
+    font-size: 30px;
+}
+#itemFilme:hover {
+    margin-left: -23.5px;
+}
+#itemManga:hover {
+    margin-left: -26.5px;
+}
+
+/* carousel */
+
+.carrossel {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carrossel div img {
+    width: 200px;
+    height: 250px;
+}
+
+/* End carousel */
+
+.categoria {
+    color: red;
+    margin-bottom: 50px;
+}
+
+.categoria h2 {
+    margin: 0 2.5%;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: -100px
+}
+
+footer div {
+   
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+footer div a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+/* End Footer */
+
+@media (max-width: 700px) {
+    #btnMenu {
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .header div {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 2px;
+        margin-right: -10px;
+        color: black;
+    }
+    .header div li {
+        color: black;
+        margin-top: 5px;
+        font-size: 25px;
+    }
+    .header div li:hover {
+        margin-top: 5px;
+        font-size: 30px;
+        margin-right: -10px;
+    }
+    .carrossel {
+        margin-left: 80px;
+    }
+}
