@@ -176,7 +176,7 @@
 
     <footer>
         <h2>NostroFilmes</h2>
-        <p>Copyright© 2022</p>
+        
         <div id="menu-footer">
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -215,6 +215,7 @@ btnMenu.addEventListener("click", () => {
 
 $('.carrossel').slick({
     dots: true,
+    variableWidth:true,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
@@ -241,7 +242,7 @@ $('.carrossel').slick({
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     }

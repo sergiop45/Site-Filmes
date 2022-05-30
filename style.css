@@ -119,6 +119,11 @@ body {
     height: 250px;
 }
 
+.carrossel div img:hover {
+    width: 250px;
+    height: 300px;
+}
+
 /* End carousel */
 
 .categoria {
@@ -139,9 +144,9 @@ footer {
     background-color: red;
     color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 10px;
     margin-bottom: -100px
 }
 
@@ -186,6 +191,16 @@ footer div a {
         margin-top: 5px;
         font-size: 30px;
         margin-right: -10px;
+    }
+
+    .carrossel div img:hover {
+    
+    }
+
+    #listaMenu li {
+        padding: 1px 3px;
+        border-radius: 5px;
+        background-color: black;
     }
     
 }
